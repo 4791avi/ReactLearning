@@ -1,17 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import App from './App';
+// import el from './SimpleString';
+// import math from './MathExpression';
+// import variabl from './Variable';
+// import funct from './FunctionTut';
+// import prop from './PropertyTut';
+// import sty from './StylingDocument';
+// import Emp from './PropsInFunctionComponent';
+// import Emp1 from './PropsInClassComponent';
+// import Requ from './TypeCheckingWithProps';
+// import Player from './ChildrenFunctionalCommponent';
+// import Cls from './ChildrenFunctionalCommponent';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// import Scc from './StateClassComponent';
+// import Scco from './StateInsideConstructor';
+// import EventHandling from './EventHandling';
+// import Ehfc from './EventhandlingFunctionalComponent';
+// import UpdateStateComponent from './UpdateStateComponent';
+// import Patev from './PassingArgsToEventHandler'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// let el = <h1> Hello React world</h1>
+// let el = React.createElement('h1', null, "Hello to the React world");
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+// import CosntComponent from './ConstructorComponent';
+// import App from './MountingUnmounting/App';
+// import Student from './MountingUnmounting/Student';
+
+// import App from './GetDerivedStateFromProps/App';
+// import App from './Hooks/App';
+// import AppOne from './Hooks/AppOne';
+// import AppTwo from './EffectHook/AppTwo';
+// import App from './ConditionalRendering/App';
+
+import App from './Styling/AppExternalStylesheet';
+
+ReactDOM.render(<App  />, document.getElementById('root'));
+// ReactDOM.render(<Student />, document.getElementById('stu'));
+// ReactDOM.unmountComponentAtNode(document.getElementById('root'));
